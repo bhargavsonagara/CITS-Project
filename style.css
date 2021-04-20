@@ -1,0 +1,166 @@
+/*Top navbar*/
+.bar_logo{
+    font-size: 24px;
+}
+#dropdownMenuButton{
+    background-color: white;
+    color: rgb(240,85,56);
+    min-height: 0%;
+    padding: 6px;
+    border-radius: 0%;
+    position: relative;
+    top: 1px; 
+}
+#dropdownMenuButton:focus{
+    box-shadow: none;
+}
+.search_i{
+    background-color: rgb(240,85,56);
+}
+.search_i>img{
+    max-height: 30px;
+    max-width: 30px;
+}
+.search-container{
+    position: relative;
+    top: -5px;
+}
+.dropdown{
+    position: relative;
+    left: 16px;
+    top: -1px;
+}
+
+.nav_i>img{
+    max-height: 25px;
+    max-width: 25px;
+}
+.nav_i>span{
+    font-size: 14px;
+}
+
+/*body*/
+.jumbotron-fluid{
+    background-color: #e9ecef;
+}
+
+.category{
+    width: 40%;
+}
+
+.category_1{
+    font-size: 12px;
+}
+
+.title{
+    color: rgb(29,68,110);
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 6px;
+}
+.button{
+    background-color: rgb(29,68,110);
+}
+.card-title{
+    color: black;
+    font-weight: 500;
+}
+strike{
+    font-size: 12px;
+    color: rgb(78, 135, 61);
+}
+.card-rs{
+    color: rgb(29,68,110);
+    font-weight: bold;
+    font-size: 22px;
+}
+.card-text{
+    line-height: 18px;
+    position: relative;
+    left: -18px;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    position: relative;
+    top: 10px;
+}
+.text{
+    position: relative;
+    top: 9px;
+}
+.driller{
+    position: relative;
+    top: 48px;
+}
+
+/*Footer*/
+.footer-1{
+    background-color: rgb(29, 68, 110);
+}
+hr{
+    border: 1px solid white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.text-justify>a{
+    font-size: 14px;
+}
+h4{
+    font-size: 22px;
+}
+.footer-2{
+    background-color: rgb(45, 62, 78);
+    padding-bottom: 80px;
+}
+.company{
+    font-size: 20px;
+    font-weight: bold;
+}   
+.subs{
+    color: white;
+    font-size: 20px;
+}
+.topnav .search-container button {
+    padding: 6px;
+    margin-left: -6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .signup{
+      background-color: rgb(240,85,56);
+  }
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
